@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exemplo 04: CSS</title>
+
+        <style>
+            li#residente.cidade{
+                color: red;
+            }
+            .cidade {
+                text-decoration: underline;
+                text-decoration-style: dashed; 
+                font-size: medium;
+            }
+            li.estado {
+                text-decoration: underline; 
+                    text-decoration-style: dotted;
+                font-size: medium;
+            }
+        </style>
+    </head>
+    
+    
+    <body>
+    
+        <h1>Exemplo 04: CSS</h1>
+    <ol>
+        <li class="estado">Minas Gerais
+            <ul>
+                <li id="residente"class="cidade">Juiz de Fora</li>
+                <li class="cidade">Belo Horizonte</li>
+                <li class="cidade">Bicas</li>
+            </ul>
+        </li>
+        
+        <li class="estado">Rio de Janeiro
+            <ul>
+                <li class="cidade">Barra Mansa</li>
+                <li class="cidade">Três Rios</li>
+            </ul>
+        </li>
+        <li class="estado">São Paulo
+            <ul>
+                <li class="cidade">São Paulo</li>
+                <li class="cidade">Santos</li>
+            </ul>
+        </li>
+        <li class="estado">Espirito Santo
+            <ul>
+                <li class="cidade">Vila Velha</li>
+                <li class="cidade">Vitória</li>
+            </ul>
+        </li>
+    </ol>
+      
+    </body>
+</html>
